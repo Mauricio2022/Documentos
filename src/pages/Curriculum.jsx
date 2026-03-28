@@ -297,9 +297,9 @@ function Curriculum() {
           </div>
 
           <div ref={previewRef} style={{
-            background: '#fff', boxShadow: '0 8px 40px rgba(0,0,0,0.12)',
-            borderRadius: '4px', fontFamily: 'Arial, sans-serif', color: '#111', overflow: 'hidden',
-          }}>
+  background: '#fff', boxShadow: '0 8px 40px rgba(0,0,0,0.12)',
+  borderRadius: '4px', fontFamily: 'Arial, sans-serif', color: '#111',
+}}>
             <div style={{ padding: '40px 48px 20px', borderBottom: '2px solid #111' }}>
               <h1 style={{ fontSize: '22pt', fontWeight: '700', margin: '0 0 4px', letterSpacing: '-0.3px' }}>
                 {datos.nombre || 'Tu nombre completo'}
